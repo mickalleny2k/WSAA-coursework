@@ -12,4 +12,5 @@ def getcurrenttemp():
     tempObject = data["current"]["temperature_2m"]
     return tempObject
 
-print(getcurrenttemp())
+if __name__ == "__main__":
+    print(getcurrenttemp())
